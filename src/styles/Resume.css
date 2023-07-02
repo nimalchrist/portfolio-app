@@ -1,0 +1,68 @@
+/* resume container */
+.resume-container{
+    width: 85%;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* resume side navbar */
+.resume-navbar-container {
+    position: sticky;
+    top: 148px;
+    height: calc(100vh - 148px);
+    overflow-y: auto;
+    flex-basis: 10%;
+}
+.resume-navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+.resume-nav-link{
+    text-decoration: none !important;
+    font-weight: bold !important;
+    color: black !important;
+}
+.active {
+    text-decoration: none !important;
+    color: #3d68f3 !important; 
+    font-weight: bold !important; 
+}
+
+/* resume content */
+.resume-content {
+    flex-basis: 85%;
+    height: 100vh;
+    overflow-y: auto;
+    
+}
+
+
+/* mobile screen */
+@media (max-width: 767px) {
+    .resume-navbar-container {
+        flex-basis: 100%;
+        top: 86px;
+        height: auto;
+        margin-left: 8px;
+    }
+    .resume-content {
+        flex-basis: 100%;
+    }
+
+}
+
+/* Tablet screens css*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .resume-navbar-container {
+        top: 86px;
+        margin-left: 10px;
+        flex-basis: 100%;
+        height: auto;
+    }    
+    .resume-content {
+        flex-basis: 100%;
+    }
+}

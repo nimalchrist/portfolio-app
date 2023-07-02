@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import NavbarHeader from "./components/Navbar";
+import "./styles/Home.css";
+import TextCycler from "./components/TextCycler";
+import AboutSection from "./components/About";
+import Resume from "./components/Resume";
 
 function App() {
+  const hostName = "CHIRISTO SELVA NIMAL";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="home-container" id="home">
+        <header className="header-container">
+          <NavbarHeader />
+        </header>
+        <h3>HEY! I'AM</h3>
+        <h1>{hostName}</h1>
+        <TextCycler />
+      </div>
+      <br />
+      <AboutSection />
+      <Resume />
+    </>
   );
 }
 
