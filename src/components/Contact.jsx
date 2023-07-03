@@ -14,7 +14,7 @@ export default function Contact() {
     {
       id: 3,
       key: "LinkedIn:",
-      value: "linkedin.com/in/christo-selva-nimal-s-47400b1bb",
+      value: "https://www.linkedin.com/in/christo-selva-nimal-s-47400b1bb/",
     },
     {
       id: 4,
@@ -45,7 +45,9 @@ export default function Contact() {
                     {item.id !== 3 ? (
                       item.value
                     ) : (
-                      <a href={item.value}>{item.value}</a>
+                      <a href={item.value} target="_blank">
+                        {"christo-selva-nimal-s-47400b1bb/"}
+                      </a>
                     )}
                   </td>
                 </tr>
