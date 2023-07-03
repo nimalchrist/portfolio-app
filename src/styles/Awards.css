@@ -58,10 +58,10 @@
 @media (max-width: 767px) {
     .awards-icon {
         margin-top: 25px;
-        flex-basis: 2%;
+        flex-basis: 100%;
     }
     .awards-content{
-        flex-basis: 80%;
+        flex-basis: 100%;
     }
     .awards-section h2{
         margin-left: 0px;
