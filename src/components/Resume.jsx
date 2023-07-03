@@ -14,19 +14,21 @@ function Resume() {
       title: "SSLC",
       grade: "92.6%",
       description:
-        "I completed my SSLC schooling in Sacred Heart Hr Sec School and secured the percentage of 92.6.",
+        "I successfully completed my SSLC schooling at Sacred Heart Hr Sec School with an impressive percentage of 92.6%, showcasing my exceptional dedication and academic excellence.",
     },
     {
       completion: "2020",
       title: "HSC",
       grade: "91.83%",
       description:
-        "I completed my HSC schooling in Sacred Heart Hr Sec School and secured the percentage of 91.6",
+        "I proudly completed my HSC schooling at Sacred Heart Hr Sec School, achieving an impressive percentage of 91.83%. This accomplishment is a testament to my hard work and commitment to academic excellence.",
     },
     {
       completion: "2024(current final yr)",
       title: "BE CSE",
-      grade: "8.7",
+      grade: "8.7 cgpa",
+      description:
+        "I am currently pursuing my final year, and I have achieved an impressive CGPA of 8.7. This reflects my consistent dedication and academic performance throughout my academic journey, setting a strong foundation for future success.",
     },
   ];
   const awardsList = [
@@ -35,14 +37,14 @@ function Resume() {
       title: "Smart India Hackathon 2022",
       provider: "AICTE in association with MeiTY",
       description:
-        "It is a National Level Hackathon conducted by AICTE. I along with my team won the world's biggest hackathon.",
+        "My team and I emerged victorious in the prestigious Smart India Hackathon 2022, organized by AICTE in association with MeiTY. We proudly clinched the top position in the world's largest hackathon, showcasing our exceptional problem-solving skills and innovative thinking.",
     },
     {
       year: "2022",
       title: "Govtechthon 2022 (Runners up)",
       provider: "TN Skills and StartupTN",
       description:
-        "It is a State Level event conducted by Startup TN and TN SKills. I along with my team are the runners up in this event.",
+        "In the State Level event, Govtechthon 2022, organized by Startup TN and TN Skills, my team and I proudly secured the position of runners-up. Our commendable performance in this competition highlights our strong skills and dedication in the field of government technology innovation.",
     },
   ];
   const skillsList = [

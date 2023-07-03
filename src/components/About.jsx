@@ -9,7 +9,7 @@ export default function AboutSection() {
       id: 3,
       key: "Address:",
       value:
-        "7/7a, Karaiyalar Kudiyetru Street, Sathankulam 628704, Tuticoring, Tamil Nadu, India",
+        "7/7a, Karaiyalar Kudiyetru Street, Sathankulam 628704, Tuticorin, Tamil Nadu, India",
     },
     { id: 4, key: "Religion:", value: "RC Christian" },
     { id: 5, key: "Email:", value: "chiristonimal@gmail.com" },
@@ -24,8 +24,8 @@ export default function AboutSection() {
       <div className="about-content">
         <h1>About Me</h1>
         <p style={{ color: "#afafaf", fontWeight: 700 }}>
-          ithu oru loosu koo content paathuka enatha sola summa vaikanumae nu
-          vachurke pathuka ithoda nee oru ven pongal
+          Highly motivated Full stack developer with Expertise in data
+          structures and algorithms.
         </p>
         <div className="about-content-div">
           <Table

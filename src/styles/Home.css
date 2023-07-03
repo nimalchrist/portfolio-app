@@ -55,6 +55,14 @@
 .navbar-item-container .navbar-item:hover::after{
     width: 100%;
 }
+.cv-button{
+    padding: 8px 13px;
+    background-color: #3d68f3;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+}
 
 /* home container text */
 .home-container h3{

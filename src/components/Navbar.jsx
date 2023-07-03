@@ -78,7 +78,14 @@ export default function NavbarHeader() {
             <NavLink href="#contact">Contact</NavLink>
           </NavItem>
           <NavItem className="navbar-item mx-4">
-            <Button variant="primary">Download CV</Button>
+            <a
+              href="https://drive.google.com/file/d/1FTizPvLh31MWEd8GuPu2dztw5EOR9Ic0/view?usp=drive_link"
+              download="Nimal resume.pdf"
+              target="_blank"
+              className="cv-button"
+            >
+              Download CV
+            </a>
           </NavItem>
         </Nav>
       </Navbar.Collapse>

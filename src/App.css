@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.free-lancing-section {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(./assets/images/free-lancing-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-lancing-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3d68f3;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.free-lancing-section h1 {
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.free-lancing-section span {
+    color: #a0f669;
+}
+
+.free-lancing-section .hire-me-btn {
+    position: relative;
+    z-index: 2;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* mobile screen */
+@media (max-width: 767px) {
+    .free-lancing-section h1 {
+        font-size: 20px;
+    }
+}

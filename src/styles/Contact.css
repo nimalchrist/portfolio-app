@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
+@import url('https://fonts.googleapis.com/css?family=Caprasimo');
+@import url('https://fonts.googleapis.com/css?family=Inter Tight');
+
+.contact-section {
+    width: 85%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.contact-section h1{
+    flex-basis: 100%;
+    margin-bottom: 100px;
+    font-family: "Caprasimo";
+    font-size: 46px;
+    font-weight: 300;
+}
+
+/* contact image */
+.contact-section .contact-image {
+    flex-basis: 45%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 15px;
+}
+.contact-section .contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.contact-div{
+    border-radius: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    flex-basis: 45%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-div table{
+    flex-basis: 100%;
+    margin: 15px 20px;
+}
+.contact-div .social-icon-list{
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icon-list h2{
+    flex-basis: 100%;
+    text-align: center;
+    font-family: "Caprasimo";
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+.social-icon-list .social-icon{
+    flex-basis: 29%;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.social-icon-list .social-icon:hover {
+    transform: rotate3d(0, 1, 0, 360deg);
+    transition: 0.5s;
+}
+.fb{
+    background-color: #3d68f3;
+    color: white;
+}
+.ln{
+    background-color: #3d68f3;
+    color: white;
+}
+.insta{
+    color: white;
+    background-color: #3d68f3;
+}
+
+
+/* mobile screens */
+@media (max-width: 767px) {
+    .contact-section h1 {
+        font-size: 30px;
+    }
+    .contact-section .contact-image {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-div {
+        flex-basis: 100%;
+    }
+    .social-icon-list h2 {
+        font-size: 22px;
+        margin: 15px auto;
+    }
+    .social-icon-list .social-icon {
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 30px;
+    }
+}
+
+/* tab screen */
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact-section h1 {
+        font-size: 34px;
+    }
+    .contact-section .contact-image {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-div {
+        flex-basis: 100%;
+    }
+    .social-icon-list .social-icon {
+        margin: 25px auto;
+        font-size: 30px;
+    }
+}

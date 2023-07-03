@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
+@import url('https://fonts.googleapis.com/css?family=Inter Tight');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo');
-
 .education-div {
     display: flex;
     flex-wrap: wrap;
@@ -35,18 +34,16 @@
 
 .education-content h5 {
     color: #3d68f3;
-    font-family: "Caprasimo";
+    font-family: "Inter Tight";
+    font-weight: bold;
 }
 
-.education-content h4 {
-    color: black;
-    font-family: "Caprasimo";
-}
+
 
 .education-content h6 {
     font-weight: bold;
     font-size: 16px;
-    font-family: "Caprasimo";
+    font-family: "Inter Tight";
 }
 
 .education-content p {

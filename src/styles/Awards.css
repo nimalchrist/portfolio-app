@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo');
+@import url('https://fonts.googleapis.com/css?family=Inter Tight');
 
 .awards-div{
     display: flex;
@@ -18,8 +19,8 @@
     margin: 15px auto;
 }
 .awards-icon .icon-wrapper{
-    padding: 8px;
-    border-radius: 26px;
+    padding: 10px 18px;
+    border-radius: 36px;
     background-color: #3d68f3;
     text-align: center;
 }
@@ -30,16 +31,17 @@
 }
 .awards-content h5{
     color: #3d68f3;
-    font-family: "Caprasimo";
+    font-family: "Inter Tight";
 }
 .awards-content h4{
     color: black;
-    font-family: "Caprasimo";
+    font-family: "Inter Tight";
+    font-weight: bold;
 }
 .awards-content h6{
     font-weight: bold;
     font-size: 16px;
-    font-family: "Caprasimo";
+    font-family: "Inter Tight";
 }
 .awards-content p{
     color: #676767;
