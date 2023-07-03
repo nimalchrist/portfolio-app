@@ -10,6 +10,20 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  function handleHireMeOnClick() {
+    const recruiterEmail = "chiristonimal@gmail.com";
+    const subject = "Job Inquiry";
+    const ccEmail = "chiristonimal@gmail.com"; // Your email address
+
+    const gmailLink = `https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new&to=${recruiterEmail}&subject=${encodeURIComponent(
+      subject
+    )}&cc=${ccEmail}`;
+
+    const newTab = window.open(gmailLink, "_blank");
+    if (newTab) {
+      newTab.focus();
+    }
+  }
   const hostName = "CHIRISTO SELVA NIMAL";
   return (
     <>
@@ -26,11 +40,15 @@ function App() {
       <Resume />
       <Projects />
       <div className="free-lancing-section">
-        <div className="overlay"></div> {/* Add the overlay div */}
+        <div className="overlay"></div>
         <h1>
           I am available for <span>FreeLancing!</span>
         </h1>
-        <Button variant="info" className="px-4 py-2 hire-me-btn">
+        <Button
+          variant="info"
+          className="px-4 py-2 hire-me-btn"
+          onClick={handleHireMeOnClick}
+        >
           Hire Me
         </Button>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, NavItem, NavLink, Button } from "react-bootstrap";
+import { Navbar, Nav, NavItem, NavLink } from "react-bootstrap";
 import "../styles/Home.css";
 import { useState, useEffect } from "react";
 
@@ -81,6 +81,7 @@ export default function NavbarHeader() {
             <a
               href="https://drive.google.com/file/d/1FTizPvLh31MWEd8GuPu2dztw5EOR9Ic0/view?usp=drive_link"
               download="Nimal resume.pdf"
+              rel="noreferrer"
               target="_blank"
               className="cv-button"
             >
