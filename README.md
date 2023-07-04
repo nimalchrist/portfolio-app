@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# My Single Page Portfolio Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the documentation for my single-page portfolio, developed using React, Bootstrap and hosted on GitHub Pages. This portfolio showcases my work, skills, and experience in a responsive manner, adapting to different views across desktop, tablet, and mobile devices.
 
-## Available Scripts
+## Installation and Setup
 
-In the project directory, you can run:
+To set up the portfolio locally, follow these steps:
 
-### `npm start`
+1. Clone the repository from GitHub: 
+   ```
+   git clone https://github.com/nimalchrist/portfolio-app.git
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Install project dependencies:
+   ```
+   cd portfolio-app/
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Development
 
-### `npm test`
+To run the project locally for development:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start
+```
 
-### `npm run build`
+This command starts the development server, and you can access the portfolio in your browser at [http://localhost:3000](http://localhost:3000).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Building and Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To build the project for production and deploy it to GitHub Pages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run build
+```
 
-### `npm run eject`
+This command generates a production-ready bundle in the `build` directory. Deploy the contents of this directory to your GitHub Pages repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For detailed instructions on deploying a React app to GitHub Pages, refer to the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project structure is as follows:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `src/` - Contains the source code of the portfolio.
+- `public/` - Holds static assets and the main HTML file.
+- `src/components/` - Contains React components used in the portfolio.
 
-## Learn More
+## React Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The portfolio consists of the following major components:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `Home` - Displays the navigation bar and page title.
+- `About` - Provides information about myself
+- `Resume` - To provide the information about skills, education, and experience.
+- `Projects` - Showcases my projects, including descriptions, technologies used, and links.
+- `Contact` - Displays contact information.
 
-### Code Splitting
+Here's an example of how to use the `Projects` component:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```jsx
+import React from 'react';
+import Projects from './components/Projects';
 
-### Analyzing the Bundle Size
+function App() {
+  return (
+    <div className="App">
+      <Projects />
+    </div>
+  );
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+export default App;
+```
 
-### Making a Progressive Web App
+## Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The portfolio is designed to be responsive, ensuring optimal user experience on various devices and screen sizes. The layout and content adapt seamlessly between desktop, tablet, and mobile views. CSS media queries and responsive design techniques are employed to achieve this.
 
-### Advanced Configuration
+## Hosting on GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can access my portfolio online at [https://nimalchristo.github.io/portfolio-app/](https://nimalchrist.github.io/portfolio-app/). It is hosted on GitHub Pages, making it easy to share and showcase my work.
 
-### Deployment
+## Usage Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To navigate and interact with my portfolio:
 
-### `npm run build` fails to minify
+- Use the navigation bar at the top to access different sections: Home, About, Resume, Projects, and Contact.
+- Scroll down the page to view each section's content.
+- Click on the links within the Projects section to visit the project websites or repositories.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore, provide feedback, and get in touch!
+
+## Future Updates
+
+I have plans to further enhance my portfolio by adding additional projects and sections. Stay tuned for updates! If you have any suggestions or feedback, feel free to reach out or contribute to the project.
+
+---
