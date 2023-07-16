@@ -60,7 +60,7 @@ export default function Contact() {
             <a href="https://www.facebook.com/SelvaNimal13" target="_blank">
               <FontAwesomeIcon
                 icon={faFacebook}
-                size="4x"
+                size="3x"
                 color="black"
                 className="social-icon fb"
               />
@@ -68,7 +68,7 @@ export default function Contact() {
             <a href="https://www.instagram.com/_christo_nimal/" target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
-                size="4x"
+                size="3x"
                 color="black"
                 className="social-icon insta"
               />
@@ -79,7 +79,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                size="4x"
+                size="3x"
                 color="black"
                 className="social-icon ln"
               />

@@ -11,10 +11,10 @@ export default function AboutSection() {
       value:
         "7/7a, Karaiyalar Kudiyetru Street, Sathankulam 628704, Tuticorin, Tamil Nadu, India",
     },
-    { id: 4, key: "Religion:", value: "RC Christian" },
-    { id: 5, key: "Email:", value: "chiristonimal@gmail.com" },
-    { id: 6, key: "Phone:", value: "+91 6381610711" },
-    { id: 7, key: "Age:", value: "20" },
+    
+    { id: 4, key: "Email:", value: "chiristonimal@gmail.com" },
+    { id: 5, key: "Phone:", value: "+91 6381610711" },
+    { id: 6, key: "Age:", value: "20" },
   ];
   return (
     <div className="about-section-container" id="about">

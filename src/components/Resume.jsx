@@ -24,7 +24,7 @@ function Resume() {
         "I proudly completed my HSC schooling at Sacred Heart Hr Sec School, achieving an impressive percentage of 91.83%. This accomplishment is a testament to my hard work and commitment to academic excellence.",
     },
     {
-      completion: "2024(current final yr)",
+      completion: "2024 ( current final year )",
       title: "BE CSE",
       grade: "8.7 cgpa",
       description:
@@ -64,11 +64,6 @@ function Resume() {
       experience: "1 Year",
     },
     {
-      skill: "REACT",
-      value: 65,
-      experience: "3 Months",
-    },
-    {
       skill: "FLUTTER",
       value: 90,
       experience: "1.5 Years",
@@ -77,6 +72,11 @@ function Resume() {
       skill: "NODE JS",
       value: 77,
       experience: "8 Months",
+    },
+    {
+      skill: "REACT",
+      value: 65,
+      experience: "3 Months",
     },
     {
       skill: "JAVA",
@@ -92,6 +92,11 @@ function Resume() {
       skill: "MYSQL",
       value: 83,
       experience: "1.5 Years",
+    },
+    {
+      skill: "MongoDB",
+      value: 65,
+      experience: "2 months",
     },
   ];
   useEffect(() => {

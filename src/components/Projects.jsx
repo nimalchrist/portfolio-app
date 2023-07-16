@@ -63,7 +63,7 @@ export default function Projects() {
     <>
       <div className="project-section-container" id="projects">
         <h1>My Projects</h1>
-        <p>
+        <p style={{fontSize: 15}}>
           My project list exemplifies my commitment to impactful tech solutions,
           showcasing dedication, problem-solving abilities, and a passion for
           positive change.
@@ -81,9 +81,9 @@ export default function Projects() {
               />
             </div>
             <h5>
-              Used skills: <span>{project.usedSkilss}</span>
+              Skills Used: <span>{project.usedSkilss}</span>
             </h5>
-            <p>{project.description}</p>
+            <p style={{fontSize: "14px"}}>{project.description}</p>
             <a href={project.githubLink} target="_blank">
               Github Link
             </a>

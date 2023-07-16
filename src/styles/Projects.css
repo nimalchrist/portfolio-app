@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo');
-@import url('https://fonts.googleapis.com/css?family=Inter Tight');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 /* project section container */
 .project-section-container{
@@ -25,7 +24,7 @@
 .project-section-container p{
     color: #a1a1a1;
     font-size: 18px;
-    font-family: "Roboto Condensed";
+    font-family: "Inter";
     margin: 25px auto;
     padding: 10px;
     font-weight: bold;
@@ -42,7 +41,7 @@
 }
 .project-div h4 {
     font-size: 28px;
-    font-family: "Inter Tight";
+    font-family: "Inter";
     font-weight: bold;
 }
 .project-icon-wrapper {
@@ -57,12 +56,13 @@
 }
 .project-div h5 {
     color: black;
-    font-family: "Inter Tight";
+    font-family: "Inter";
     margin: 20px;
+    font-size: 14px;
 }
 .project-div span {
     color: #676767;
-    font-size: "Inter Tight";
+    font-size: "Inter";
     font-weight: bold;
 }
 
@@ -95,12 +95,15 @@
     color: white;
 }
 .project-div p{
-    font-family: 14px;
     width: 100%;
 }
 .project-div a{
+    border: 2px solid rgb(245, 242, 242);
+    padding: 10px 8px;
+    border-radius: 6px;
+    margin-bottom: -30px;
     font-weight: 500;
-    font-family: "Caprasimo";
+    font-family: "Inter";
 }
 .project-div:hover a, .project-div:hover p{
     opacity: 1;

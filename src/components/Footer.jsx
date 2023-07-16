@@ -121,7 +121,7 @@ export default function Footer() {
               fontSize: "14px",
             }}
           >
-            Designed and developed by Christo Nimal
+            Designed and Developed by Chiristo Selva Nimal
           </p>
         </div>
       </div>

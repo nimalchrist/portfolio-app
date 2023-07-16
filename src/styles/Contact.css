@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo');
-@import url('https://fonts.googleapis.com/css?family=Inter Tight');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 .contact-section {
     width: 85%;
@@ -40,7 +40,7 @@
 }
 .contact-div table{
     flex-basis: 100%;
-    margin: 5px auto;
+    margin: 25px 4px;
 }
 .contact-div .social-icon-list{
     flex-basis: 100%;

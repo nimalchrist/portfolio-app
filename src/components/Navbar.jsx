@@ -79,7 +79,7 @@ export default function NavbarHeader() {
           </NavItem>
           <NavItem className="navbar-item mx-4">
             <a
-              href="https://drive.google.com/file/d/1FTizPvLh31MWEd8GuPu2dztw5EOR9Ic0/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1MKfxXS-ay45cp2taLY782J8_XLsD72_Y/view?usp=sharing"
               download="Nimal resume.pdf"
               rel="noreferrer"
               target="_blank"

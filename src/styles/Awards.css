@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo');
-@import url('https://fonts.googleapis.com/css?family=Inter Tight');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 .awards-div{
     display: flex;
@@ -31,17 +31,17 @@
 }
 .awards-content h5{
     color: #3d68f3;
-    font-family: "Inter Tight";
+    font-family: "Inter";
 }
 .awards-content h4{
     color: black;
-    font-family: "Inter Tight";
+    font-family: "Inter";
     font-weight: bold;
 }
 .awards-content h6{
     font-weight: bold;
     font-size: 16px;
-    font-family: "Inter Tight";
+    font-family: "Inter";
 }
 .awards-content p{
     color: #676767;

@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Condensed');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo');
-@import url('https://fonts.googleapis.com/css?family=Inter Tight');
+@import url('https://fonts.googleapis.com/css?family=Inter');
 
 .footer-section{
     width: 100%;
@@ -15,7 +14,7 @@
     color: white;
     font-size: 24px;
     font-weight: bold;
-    font-family: "Inter Tight", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .footer-section .link-section{
@@ -42,6 +41,10 @@
 }
 .footer-section .queries-section{
     flex-basis: 30%;
+}
+.credits-section p{
+    font-family: "Inter";
+    font-weight: bold;
 }
 
 
