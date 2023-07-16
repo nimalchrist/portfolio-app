@@ -14,7 +14,7 @@ export default function Contact() {
     {
       id: 3,
       key: "LinkedIn:",
-      value: "https://www.linkedin.com/in/christo-selva-nimal-s-47400b1bb/",
+      value: "http://www.linkedin.com/in/chiristo-selva-nimal-s-47400b1bb",
     },
     {
       id: 4,
@@ -74,7 +74,7 @@ export default function Contact() {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/christo-selva-nimal-s-47400b1bb/"
+              href="https://www.linkedin.com/in/chiristo-selva-nimal-s-47400b1bb/"
               target="_blank"
             >
               <FontAwesomeIcon

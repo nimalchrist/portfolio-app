@@ -73,7 +73,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/christo-selva-nimal-s-47400b1bb/"
+            href="https://www.linkedin.com/in/chiristo-selva-nimal-s-47400b1bb/"
             target="_blank"
           >
             <FontAwesomeIcon
