@@ -35,10 +35,11 @@
 .resume-content {
     flex-basis: 85%;
     height: 100vh;
-    overflow-y: auto;
-    
+    overflow-y: scroll;
 }
-
+.resume-content::-webkit-scrollbar{
+    width: 2px;
+}
 
 /* mobile screen */
 @media (max-width: 767px) {
