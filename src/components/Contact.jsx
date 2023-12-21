@@ -5,6 +5,8 @@ import {
   faFacebook,
   faInstagram,
   faLinkedin,
+  faTwitter,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
@@ -60,7 +62,7 @@ export default function Contact() {
             <a href="https://www.facebook.com/SelvaNimal13" target="_blank">
               <FontAwesomeIcon
                 icon={faFacebook}
-                size="3x"
+                size="2x"
                 color="black"
                 className="social-icon fb"
               />
@@ -68,7 +70,7 @@ export default function Contact() {
             <a href="https://www.instagram.com/_christo_nimal/" target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
-                size="3x"
+                size="2x"
                 color="black"
                 className="social-icon insta"
               />
@@ -79,9 +81,25 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                size="3x"
+                size="2x"
                 color="black"
                 className="social-icon ln"
+              />
+            </a>
+            <a href="https://twitter.com/ChiristoNirmal/" target="_blank">
+              <FontAwesomeIcon
+                icon={faTwitter}
+                size="2x"
+                color="black"
+                className="social-icon fb"
+              />
+            </a>
+            <a href="https://github.com/nimalchrist/" target="_blank">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="2x"
+                color="black"
+                className="social-icon fb"
               />
             </a>
           </div>

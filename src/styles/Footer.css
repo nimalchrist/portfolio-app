@@ -39,6 +39,10 @@
     flex-basis: 30%;
     margin: 15px;
 }
+.follow-me-section .follow-icon:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
 .footer-section .queries-section{
     flex-basis: 30%;
 }

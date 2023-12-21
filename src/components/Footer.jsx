@@ -2,8 +2,10 @@ import "../styles/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
+  faGithub,
   faInstagram,
   faLinkedin,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { Table } from "react-bootstrap";
 import {
@@ -81,6 +83,22 @@ export default function Footer() {
               size="2x"
               color="#a3a3a3"
               className="follow-icon linkedIn"
+            />
+          </a>
+          <a href="https://twitter.com/ChiristoNirmal/" target="_blank">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              size="2x"
+              color="#a3a3a3"
+              className="follow-icon twitter"
+            />
+          </a>
+          <a href="https://github.com/nimalchrist" target="_blank">
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="2x"
+              color="#a3a3a3"
+              className="follow-icon twitter"
             />
           </a>
         </div>
