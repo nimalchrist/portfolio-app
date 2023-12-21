@@ -41,7 +41,7 @@ export default function Projects() {
       usedSkilss: "Html, Css, Python, Flask, JQuery",
       description:
         "It is an AI based chatbot which is used to give the personalised suggestions about the government schemes to the user.",
-      githubLink: "https://github.com/nimalchrist/chatbot-gcetly.git",
+      githubLink: "https://github.com/nimalchrist/SchemeSuggestion-chatbot",
     },
     {
       projectName: "Price Comparison Website",
@@ -63,7 +63,7 @@ export default function Projects() {
     <>
       <div className="project-section-container" id="projects">
         <h1>My Projects</h1>
-        <p style={{fontSize: 15}}>
+        <p style={{ fontSize: 15 }}>
           My project list exemplifies my commitment to impactful tech solutions,
           showcasing dedication, problem-solving abilities, and a passion for
           positive change.
@@ -83,7 +83,7 @@ export default function Projects() {
             <h5>
               Skills Used: <span>{project.usedSkilss}</span>
             </h5>
-            <p style={{fontSize: "14px"}}>{project.description}</p>
+            <p style={{ fontSize: "14px" }}>{project.description}</p>
             <a href={project.githubLink} target="_blank">
               Github Link
             </a>
